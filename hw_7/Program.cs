@@ -9,13 +9,11 @@ namespace hw_7
 {
     internal class Program
     {
-        
         public class My_Exep : ApplicationException
         {
             public My_Exep() : base("Стоимость автомобиля завышена!!!") { }
             
         }
-
         public static AutoPas f(int _size)
         {
            return new AutoPas(_size);
@@ -101,7 +99,7 @@ namespace hw_7
             {
                 WriteLine("**********************");
             }
-
+            WriteLine();
             try
             {
                 WriteLine("***ПРОВЕРКА СТОИМОСТИ***");
@@ -115,7 +113,7 @@ namespace hw_7
             {
                 WriteLine("**********************");
             }
-
+            WriteLine();
             try
             {
                 WriteLine("***Проверка пределов массива***");
@@ -134,7 +132,7 @@ namespace hw_7
             {
                 WriteLine("**********************");
             }
-
+            WriteLine();
             try
             {
                 WriteLine("***Stack trace и Target Site***");
@@ -152,7 +150,7 @@ namespace hw_7
             {
                 WriteLine("**********************");
             }
-
+            WriteLine();
             try
             {
                 WriteLine("***Checked при выполнении арифметической операции (double -> int)***");
